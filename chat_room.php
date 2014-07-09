@@ -26,6 +26,8 @@
 		<script src='http://localhost:3000/socket.io/socket.io.js'></script>
 <?php
 $in = array_merge($_GET, $_POST);
+$in['room'] = stripslashes(preg_replace('/[^a-zA-Z0-9\xE0-\xFF\x80-\xFF\x80-\xFF]/s', '', $in['room']));
+
 	if ( empty($in['room']) ) {
 		echo "
 			<script>

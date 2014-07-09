@@ -19,7 +19,8 @@ var mysql = require('mysql');
 var connection = mysql.createConnection({
 	host: '127.0.0.1',
 	user : 'user',
-	password : 'password'
+	password : 'password',
+	insecureAuth: true
 });
 
 connection.connect(); // 채팅 메세지는 계속 들어오기 때문에 연결을 열어 놓는다.
