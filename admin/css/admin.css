@@ -1,0 +1,132 @@
+body {
+	font-size: 9pt;
+	color: #313131;
+	margin: 0;
+	padding: 0;
+}
+body a {
+	text-decoration: none;
+	color: #313131;
+}
+
+#site-top {
+	background-color: #d5d5d5;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	margin-bottom: 20px;
+}
+
+#site-top a {
+	font-family: '맑은 고딕', AppleGothic;
+	display: inline-block;
+	height: 24px;
+	padding: 0 10px;
+	line-height: 24px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #666666;
+}
+
+#site-top a:hover {
+	background-color: #666666;
+	color: #ffffff;
+	border-radius: 5px;
+}
+fieldset {
+	border: 1px solid #666666;
+	padding: 10px;
+	margin-bottom: 10px;
+	min-width: 1024px;
+	border-radius: 3px;
+}
+
+fieldset input[type='text'], fieldset input[type='password'] {
+	padding: 5px 10px;
+}
+
+fieldset #keyword {
+	margin-top: 5px;
+}
+
+fieldset input[name='keyword'] {
+	width: 300px;
+}
+
+fieldset input[type='submit'] {
+	background-color: #6d899e;
+	color: #ffffff;
+	border: 0;
+	display: inline-block;
+	padding: 7px 40px;
+	cursor: pointer;
+}
+
+fieldset .sub-title {
+	font-weight: bold;
+	font-family: '맑은 고딕', AppleGothic;
+	margin-left: 10px;
+}
+
+fieldset input[type='submit']:hover, #chat-result-form #select-all:hover {
+	background-color: #3c5075;
+}
+
+#total-result {
+	margin: 20px 10px 5px 10px;
+	color: #555555;
+}
+
+#chat-result-form #select-all {
+	background-color: #6d899e;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 5px 20px;
+}
+
+#chat-log-table  {
+	margin-bottom: 10px;
+}	
+
+#chat-log-table tr td {
+	padding: 7px 10px;
+	border-bottom: 1px solid #d5d5d5;
+}
+
+#chat-log-table #tr-header {
+	background-color: #666666;
+	border-bottom: 0;
+}
+
+#chat-log-table #tr-header td {
+	color: #ffffff;
+}
+
+.paging {
+	text-align: center;
+	padding: 5px 0;
+	margin: 10px 0;
+}
+.paging a {
+	text-decoration: none;
+	font-size: 9pt;
+	color: #666666;
+	border: 1px solid #d5d5d5;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 2px;
+	margin-left: 3px;
+	text-align: center;
+}
+.paging a:hover, .paging .selected {
+	border: 1px solid #465a69;
+	background-color: #6d899e;
+	color: #ffffff !important;
+}
+
+.paging a:hover {
+	text-decoration: none;
+}
+.paging .page_no {
+	min-width: 20px;
+}
+
