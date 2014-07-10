@@ -239,7 +239,8 @@ $in['room'] = stripslashes(preg_replace('/[^a-zA-Z0-9\xE0-\xFF\x80-\xFF\x80-\xFF
 			</div>
 			<div id='chat-mode-box'>
 				<span id='chat-mode'><b>귓속말</b>은 왼쪽사용자 목록에서 사용자를 클릭 하세요.</span>
-				<a id='leave-button' href='chat.php'>방나가기</a>
+				
+				<a id='leave-button' href='chat.php?username=<?=$in['username']?>&nickname=<?=$in['nickname']?>'>방나가기</a>
 				<div style='clear: both;'></div>
 			</div>
 		</div>
